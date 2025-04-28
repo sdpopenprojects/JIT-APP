@@ -1,0 +1,7 @@
+{
+    "best_params": {
+        "n_estimators": 368,
+        "criterion": "entropy",
+        "max_depth": 2
+    }
+}

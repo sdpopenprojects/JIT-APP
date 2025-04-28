@@ -1,0 +1,7 @@
+{
+    "best_params": {
+        "criterion": "entropy",
+        "max_depth": 1,
+        "min_samples_leaf": 4
+    }
+}

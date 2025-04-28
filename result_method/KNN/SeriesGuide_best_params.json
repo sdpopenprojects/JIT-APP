@@ -1,0 +1,7 @@
+{
+    "best_params": {
+        "n_neighbors": 5,
+        "weights": "distance",
+        "p": 1
+    }
+}

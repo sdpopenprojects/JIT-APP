@@ -1,0 +1,7 @@
+{
+    "best_params": {
+        "n_estimators": 192,
+        "max_depth": 12,
+        "max_features": 4
+    }
+}

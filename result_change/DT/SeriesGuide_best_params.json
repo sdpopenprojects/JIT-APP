@@ -1,0 +1,7 @@
+{
+    "best_params": {
+        "criterion": "gini",
+        "max_depth": 2,
+        "min_samples_leaf": 3
+    }
+}

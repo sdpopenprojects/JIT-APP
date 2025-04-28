@@ -1,0 +1,7 @@
+{
+    "best_params": {
+        "n_estimators": 11,
+        "criterion": "gini",
+        "max_depth": 11
+    }
+}
