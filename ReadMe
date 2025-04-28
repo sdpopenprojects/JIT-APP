@@ -7,7 +7,7 @@ This repository provides the code and datasets used in this article - * *. A stu
 - Python	3.10.15
 
 ```
-imblearn       0. 0 
+imblearn       0. 12. 4 
 
 numpy          1. 26. 4
 
@@ -15,11 +15,13 @@ optuna         3. 2. 0
 
 pandas         1. 4. 3
 
-sklearn        0.  0. post1
+sklearn        1. 5. 2
 
 shap           0. 46. 0
 
+optuna         4. 0. 0
 
+matplotlab     3. 10. 1
 ```
 
 ### Repository Structure
