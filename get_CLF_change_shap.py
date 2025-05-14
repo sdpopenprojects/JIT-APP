@@ -81,12 +81,11 @@ if __name__ == '__main__':
             continue
 
         LOC = test_data['effort']
-
-        # 确保数据类型正确
-        # train_data = train_data.astype(float)
-        # val_data = val_data.astype(float)
-        # test_data = test_data.astype(float)
-
+        
+        train_data = train_data.drop(['effort'], axis=1)
+        val_data = val_data.drop(['effort'], axis=1)
+        test_data = test_data.drop(['effort'], axis=1)
+        
         # keep fix unchanged
         if 'fix' in train_data.columns:
             train_fix = train_data['fix']
@@ -128,10 +127,9 @@ if __name__ == '__main__':
 
         best_params_path = os.path.join(save_path, f'{project_name}_best_params.json')
 
-        # 读取 JSON 文件
-        if os.path.exists(best_params_path):  # 确保文件存在
+        if os.path.exists(best_params_path):  
             with open(best_params_path, "r") as f:
-                best_params = json.load(f)["best_params"]  # 读取并提取参数
+                best_params = json.load(f)["best_params"] 
 
             print("Loaded best parameters:", best_params)
         else:
@@ -185,7 +183,7 @@ if __name__ == '__main__':
         model.fit(train_data, train_label)
 
         predict_y = model.predict(test_data)
-        # 使用 SHAP 进行解释
+        
         if CLF in ['KNN', 'NB', 'SVM', 'Bagging', 'AdaBoost', 'MLP']:
             # explainer = shap.Explainer(model.predict, train_data, algorithm='permutation')
             # explainer = shap.KernelExplainer(model, train_data)
@@ -207,9 +205,5 @@ if __name__ == '__main__':
 
         print(f"SHAP values saved to {shap_save_path}")
 
-        plt.figure(figsize=(10, 6))
-        shap.summary_plot(shap_values, test_data, show=False)
-        plt.savefig(os.path.join(save_path, f"{project_name}_shap_plot.png"))
-        # plt.show()
 
 
