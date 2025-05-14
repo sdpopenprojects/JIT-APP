@@ -153,7 +153,11 @@ if __name__ == '__main__':
         test_data = test_data.drop(['commit_date', 'bug'], axis=1)
 
         LOC = test_data['effort']
-
+        
+        train_data = train_data.drop(['effort'], axis=1)
+        val_data = val_data.drop(['effort'], axis=1)
+        test_data = test_data.drop(['effort'], axis=1)
+        
         train_data = train_data.astype(float)
         val_data = val_data.astype(float)
         test_data = test_data.astype(float)
