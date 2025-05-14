@@ -43,4 +43,12 @@ matplotlab     3. 10. 1
 
 - `get_method_shap_pic` : The Python code for global explanation of method level models.
 
+- `result_change` : The metrics results of KNN and NB models on change level.
+
+- `result_method` : The metrics results of KNN and NB models on method level.
+
+- `shap_change` : The model explanation results of KNN and NB models on change level.
+
+- `shap_method` : The model explanation results of KNN and NB models on method level.
+
 - `utilities` : The code utilities used.
