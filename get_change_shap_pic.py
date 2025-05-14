@@ -1,14 +1,9 @@
 import os
 import pickle
 import warnings
-import numpy as np
 import pandas as pd
-
 import shap
 import matplotlib.pyplot as plt
-from utilities.AutoSpearman import AutoSpearman
-from imblearn.over_sampling import SMOTE
-
 
 def get_all_features_name(save_path,pro_num):
     all_feature_names = set()
