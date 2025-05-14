@@ -137,7 +137,6 @@ if __name__ == '__main__':
         data['bug'][data['bug'] == 'clean'] = 0
         data['bug'][data['bug'] == 'buggy'] = 1
 
-
         ori_data = data.drop(['commit_date', 'bug'], axis=1)
         data['effort'] = data['la'] + data['ld']
 
@@ -166,7 +165,11 @@ if __name__ == '__main__':
             continue
 
         LOC = test_data['effort']
-
+        
+        train_data = train_data.drop(['effort'], axis=1)
+        val_data = val_data.drop(['effort'], axis=1)
+        test_data = test_data.drop(['effort'], axis=1
+                                  
         # keep fix unchanged
         if 'fix' in train_data.columns:
             train_fix = train_data['fix']
