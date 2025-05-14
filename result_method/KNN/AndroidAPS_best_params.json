@@ -1,0 +1,7 @@
+{
+    "best_params": {
+        "n_neighbors": 3,
+        "weights": "uniform",
+        "p": 2
+    }
+}
