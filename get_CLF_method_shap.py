@@ -65,7 +65,11 @@ if __name__ == '__main__':
         test_data = test_data.drop(['commit_date', 'bug'], axis=1)
 
         LOC = test_data['effort']
-
+        
+        train_data = train_data.drop(['effort'], axis=1)
+        val_data = val_data.drop(['effort'], axis=1)
+        test_data = test_data.drop(['effort'], axis=1)
+        
         train_data = train_data.astype(float)
         val_data = val_data.astype(float)
         test_data = test_data.astype(float)
@@ -111,10 +115,9 @@ if __name__ == '__main__':
 
         best_params_path = os.path.join(save_path, f'{project_name}_best_params.json')
 
-        # 读取 JSON 文件
-        if os.path.exists(best_params_path):  # 确保文件存在
+        if os.path.exists(best_params_path):  
             with open(best_params_path, "r") as f:
-                best_params = json.load(f)["best_params"]  # 读取并提取参数
+                best_params = json.load(f)["best_params"]
 
             print("Loaded best parameters:", best_params)
         else:
