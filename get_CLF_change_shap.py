@@ -192,8 +192,8 @@ if __name__ == '__main__':
             shap_values = explainer(test_data)
         elif CLF in ['DT', 'RF', 'GBM']:
             explainer = shap.TreeExplainer(model, train_data)
-            shap_values = explainer.shap_values(test_data)
-            # shap_values = explainer(test_data, check_additivity=False)
+            # shap_values = explainer.shap_values(test_data)
+            shap_values = explainer(test_data, check_additivity=False)
         elif CLF in ['LR']:
             explainer = shap.LinearExplainer(model, train_data)
             shap_values = explainer(test_data)
