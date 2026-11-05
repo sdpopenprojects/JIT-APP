@@ -1,0 +1,17 @@
+,precision,recall,pf,F1,AUC,g_measure,g_mean,bal,MCC,popt,cErecall,cEprecision,cEfmeasure,cPMI,cIFA
+Afwall,-L,L,-L,-L,S,-L,-L,-L,-L,L,L,-L,-L,-L,L
+Alfresco-android-app,L,-L,L,L,-L,-L,-L,-L,L,-L,L,L,L,-L,M
+AndroidAPS,-L,L,-L,-L,-L,-L,-L,-L,-L,L,L,L,L,-L,L
+AntennaPod,L,L,-L,L,-L,-L,-L,-L,-L,L,S,L,L,-L,S
+AnySoftKeyboard,L,-L,L,L,-L,-L,-L,-L,L,-L,L,L,L,-L,L
+Atmosphere,L,-L,L,L,-L,-L,-L,-L,L,M,L,L,L,-L,N
+ChatSecureAndroid,L,L,-L,L,L,-L,-N,-L,L,L,L,L,L,-L,L
+Conversations,-L,L,-L,-L,-L,-L,-L,-L,-L,L,L,L,L,-L,-L
+Facebook-android-sdk,-L,-L,L,-L,L,L,L,L,L,L,L,L,L,-L,L
+K-9,L,L,-L,L,-L,-L,-L,-L,-L,-L,-L,L,L,-L,L
+Kiwix-android,-L,-N,-L,-L,-L,-L,-L,-L,-L,-L,-L,-L,-L,L,-N
+Owncloud-android,L,L,-L,L,-L,-L,-L,-L,L,L,L,L,L,-L,L
+PageTurner,-L,L,-S,-L,L,N,S,-N,-L,L,L,L,L,-L,L
+Reddit,L,L,L,L,L,L,L,L,L,L,L,L,L,-L,-L
+SeriesGuide,L,L,-L,L,-L,-L,-L,-L,-L,L,L,L,L,-L,L
+Wallpaper,-L,-L,L,-L,-L,S,-L,M,-L,L,L,L,L,-L,L

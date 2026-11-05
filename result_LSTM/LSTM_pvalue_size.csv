@@ -1,0 +1,17 @@
+,precision,recall,pf,F1,AUC,g_measure,g_mean,bal,MCC,popt,cErecall,cEprecision,cEfmeasure,cPMI,cIFA
+Afwall,lose,win,lose,lose,tie,lose,lose,lose,lose,win,win,lose,lose,lose,win
+Alfresco-android-app,win,lose,win,win,lose,lose,lose,lose,win,lose,win,win,win,lose,lose
+AndroidAPS,lose,win,lose,lose,lose,lose,lose,lose,lose,win,win,win,win,lose,win
+AntennaPod,win,win,lose,win,lose,lose,lose,lose,lose,win,tie,win,win,lose,tie
+AnySoftKeyboard,win,lose,win,win,lose,lose,lose,lose,win,lose,win,win,win,lose,win
+Atmosphere,win,lose,win,win,lose,lose,lose,lose,win,win,win,win,win,lose,tie
+ChatSecureAndroid,win,win,lose,win,win,lose,tie,lose,win,win,win,win,win,lose,win
+Conversations,lose,win,lose,lose,lose,lose,lose,lose,lose,win,win,win,win,lose,lose
+Facebook-android-sdk,lose,lose,win,lose,win,win,win,win,win,win,win,win,win,lose,win
+K-9,win,win,lose,win,lose,lose,lose,lose,lose,lose,lose,win,win,lose,win
+Kiwix-android,lose,tie,lose,lose,lose,lose,lose,lose,lose,lose,lose,lose,lose,win,tie
+Owncloud-android,win,win,lose,win,lose,lose,lose,lose,win,win,win,win,win,lose,win
+PageTurner,lose,win,tie,lose,win,tie,tie,tie,lose,win,win,win,win,lose,win
+Reddit,win,win,win,win,win,win,win,win,win,win,win,win,win,lose,lose
+SeriesGuide,win,win,lose,win,lose,lose,lose,lose,lose,win,win,win,win,lose,win
+Wallpaper,lose,lose,win,lose,lose,tie,lose,win,lose,win,win,win,win,lose,win
