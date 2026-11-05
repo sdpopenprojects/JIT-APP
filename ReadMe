@@ -43,6 +43,8 @@ matplotlab     3. 10. 1
 
 - `get_method_shap_pic` : The Python code for global explanation of method level models.
 
+- `result_LSTM` : The experiment results of LSTM model on method and change level.
+
 - `result_change` : The metrics results of KNN and NB models on change level.
 
 - `result_method` : The metrics results of KNN and NB models on method level.
